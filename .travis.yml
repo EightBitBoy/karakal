@@ -1,12 +1,10 @@
-# Commented sections below can be used to run tests on the CI server
-# https://simulatedgreg.gitbooks.io/electron-vue/content/en/testing.html#on-the-subject-of-ci-testing
 osx_image: xcode8.3
 sudo: required
 dist: trusty
 language: c
 matrix:
   include:
-  - os: osx
+  #- os: osx
   - os: linux
     env: CC=clang CXX=clang++ npm_config_clang=1
     compiler: clang
@@ -38,6 +36,3 @@ script:
 #- xvfb-maybe node_modules/.bin/karma start test/unit/karma.conf.js
 #- yarn run pack && xvfb-maybe node_modules/.bin/mocha test/e2e
 - yarn run build
-branches:
-  only:
-  - master
