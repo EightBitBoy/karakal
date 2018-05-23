@@ -7,10 +7,16 @@
 
 <script>
 export default {
-    
+  data: function () {
+    return {
+      message: 'This is a message!'
+    }
+  }
 }
 </script>
 
 <style>
-
+h2 {
+    color: blue;
+}
 </style>
