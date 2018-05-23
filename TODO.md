@@ -66,3 +66,8 @@
 * unit testing, Karma + Mocha
 * E2E testing, Spectron + Mocha
 * electron-builder (electron-packager)
+
+
+
+
+npm audit
