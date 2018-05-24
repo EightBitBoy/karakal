@@ -2,15 +2,14 @@
 
 [![Build Status](https://travis-ci.org/EightBitBoy/karakal.svg?branch=master)](https://travis-ci.org/EightBitBoy/karakal)
 
-Karakal is a personal finance application.
+Karakal - coming soon™.
 
 ## Development
-* ```npm install```
-* ```npm run dev```
+* ```yarn install```
+* ```yarn run dev```
 
-## Test
-* ```npm run lint```
-* ```npm run test```
+## Update dependencies
+* ```yarn run update```
 
 ## Build
-* ```npm run build```
+* ```yarn run dist```
