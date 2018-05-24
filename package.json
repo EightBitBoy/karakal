@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "author": "Stefan Härtel <haertel.dev@gmail.com>",
   "description": "Karakal is an awesome application.",
-  "license": null,
+  "license": "UNLICENSED",
+  "private": true,
   "scripts": {
     "dev": "electron-webpack dev",
     "compile": "electron-webpack",
@@ -12,14 +13,14 @@
     "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
   },
   "dependencies": {
-    "source-map-support": "0.5.5"
+    "source-map-support": "0.5.6"
   },
   "devDependencies": {
-    "electron": "2.0.0",
-    "electron-builder": "20.11.1",
-    "electron-webpack": "2.0.1",
+    "electron": "2.0.2",
+    "electron-builder": "20.14.7",
+    "electron-webpack": "2.1.2",
     "npm-check-updates": "2.14.2",
-    "webpack": "4.8.1"
+    "webpack": "4.8.3"
   },
   "resolutions": {
     "webpack-sources": "1.0.1"
