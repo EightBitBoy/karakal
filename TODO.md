@@ -71,3 +71,4 @@
 
 
 npm audit
+https://github.com/tjunnone/npm-check-updates
