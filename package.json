@@ -21,8 +21,5 @@
     "electron-webpack": "2.1.2",
     "npm-check-updates": "2.14.2",
     "webpack": "4.8.3"
-  },
-  "resolutions": {
-    "webpack-sources": "1.0.1"
   }
 }
