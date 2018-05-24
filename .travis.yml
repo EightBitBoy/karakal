@@ -11,3 +11,6 @@ install:
   - yarn install
 script:
   - yarn run compile
+branches:
+  except:
+    - legacy-setup
