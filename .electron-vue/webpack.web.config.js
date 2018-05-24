@@ -98,6 +98,9 @@ let webConfig = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin()
   ],
+  optimization: {
+    minimize: false
+  },
   output: {
     filename: '[name].js',
     path: path.join(__dirname, '../dist/web')

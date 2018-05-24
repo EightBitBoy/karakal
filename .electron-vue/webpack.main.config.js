@@ -43,6 +43,9 @@ let mainConfig = {
     __dirname: process.env.NODE_ENV !== 'production',
     __filename: process.env.NODE_ENV !== 'production'
   },
+  optimization: {
+    minimize: false
+  },
   output: {
     filename: '[name].js',
     libraryTarget: 'commonjs2',

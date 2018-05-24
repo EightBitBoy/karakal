@@ -125,6 +125,9 @@ let rendererConfig = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin()
   ],
+  optimization: {
+    minimize: false
+  },
   output: {
     filename: '[name].js',
     libraryTarget: 'commonjs2',
