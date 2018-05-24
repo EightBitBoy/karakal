@@ -77,3 +77,5 @@ see branch legacy-setup for stuff to add to the project
 
 https://github.com/electron-userland/electron-webpack-quick-start
 
+
+https://webpack.electron.build/
