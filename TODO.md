@@ -79,3 +79,5 @@ https://github.com/electron-userland/electron-webpack-quick-start
 
 
 https://webpack.electron.build/
+https://github.com/vuejs/vue-loader
+https://github.com/electron-userland/electron-builder
