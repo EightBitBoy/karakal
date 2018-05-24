@@ -72,3 +72,8 @@
 
 npm audit
 https://github.com/tjunnone/npm-check-updates
+
+see branch legacy-setup for stuff to add to the project
+
+https://github.com/electron-userland/electron-webpack-quick-start
+
