@@ -10,7 +10,8 @@ cache:
 install:
   - yarn install
 script:
-  - yarn run compile
+  - echo "There will be a test script soon!"
+  # - yarn run compile
 branches:
   except:
     - legacy-setup
