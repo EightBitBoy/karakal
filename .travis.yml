@@ -1,0 +1,16 @@
+language: node_js
+node_js: node
+dist: trusty
+cache:
+  yarn: true
+  directories:
+    - node_modules
+    - "$HOME/.electron"
+    - "$HOME/.cache"
+install:
+  - yarn install
+script:
+  - yarn run compile
+branches:
+  except:
+    - legacy-setup
