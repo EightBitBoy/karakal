@@ -31,6 +31,7 @@ function startRenderer() {
         action: 'reload'
       })
       console.info('\nCompiled renderer script.')
+      console.info(new Date().toLocaleTimeString('de-DE'))
     })
 
     const server = new WebpackDevServer(compiler, {
