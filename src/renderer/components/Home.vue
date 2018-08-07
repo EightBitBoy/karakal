@@ -1,6 +1,6 @@
 <template>
   <div>
-    <hello-world/>
+    <main-component/>
     <div class="header-background">
       <section class="hero is-info is-medium is-bold">
         <!-- Hero content: will be in the middle -->
@@ -37,12 +37,12 @@
 
 <script>
 import SystemInformation from './Home/SystemInformation'
-import HelloWorld from './HelloWorld'
+import MainComponent from './MainComponent'
 
 export default {
   name: 'Home',
 
-  components: { HelloWorld, SystemInformation }
+  components: { MainComponent, SystemInformation }
 }
 </script>
 
