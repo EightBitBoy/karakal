@@ -2,4 +2,8 @@
 
 ## Vue-Electron-Template
 - https://github.com/mubaidr/vue-electron-template
-- MIT license
+- MIT License
+
+## Vue
+- https://github.com/vuejs/vue
+- MIT License
