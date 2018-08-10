@@ -3,15 +3,19 @@
     <div>
       <transaction-list/>
     </div>
+    <div>
+      <play-ground/>
+    </div>
   </div>
 </template>
 
 <script>
+import PlayGround from './PlayGround'
 import TransactionList from './TransactionList'
 
 export default {
   name: 'MainComponent',
-  components: {TransactionList}
+  components: {PlayGround, TransactionList}
 }
 </script>
 
