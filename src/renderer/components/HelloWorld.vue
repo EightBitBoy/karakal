@@ -4,6 +4,9 @@
     <div>
       {{valueAlpha}}
     </div>
+    <div>
+      {{valueBravo}}
+    </div>
   </div>
 </template>
 
@@ -12,7 +15,8 @@ export default {
   name: 'HelloWorld',
   data: function(){
     return{
-      valueAlpha: "foobar"
+      valueAlpha: "foobar",
+      valueBravo: "abcde"
     }
   }
 }
