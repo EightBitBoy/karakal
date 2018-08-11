@@ -7,6 +7,10 @@
     <div>
       {{valueBravo}}
     </div>
+    <div>
+      {{count}}
+    </div>
+    <button v-on:click="count++">Count!</button>
   </div>
 </template>
 
@@ -16,7 +20,8 @@ export default {
   data: function(){
     return{
       valueAlpha: "foobar",
-      valueBravo: "abcde"
+      valueBravo: "abcde",
+      count: 0
     }
   }
 }
