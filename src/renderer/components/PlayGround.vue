@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import HelloWorld from './HelloWorld'
+import HelloWorld from './PlayGround/HelloWorld'
 
 export default {
   name: 'PlayGround',
