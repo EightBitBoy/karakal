@@ -2,15 +2,19 @@
   <div>
     <h1>Hello world!</h1>
     <div>
-      {{valueAlpha}}
-    </div>
-    <div>
-      {{valueBravo}}
+      {{someString}}
     </div>
     <div>
       {{count}}
     </div>
-    <button v-on:click="count++">Count!</button>
+    <button v-on:click="count++">Do count!</button>
+    <div>
+      {{factor}}
+    </div>
+    <button v-on:click="factor++">Increase factor!</button>
+    <div>
+      {{count * factor}}
+    </div>
   </div>
 </template>
 
@@ -19,9 +23,9 @@ export default {
   name: 'HelloWorld',
   data: function(){
     return{
-      valueAlpha: "foobar",
-      valueBravo: "abcde",
-      count: 0
+      someString: "foobar",
+      count: 0,
+      factor: 1
     }
   }
 }
