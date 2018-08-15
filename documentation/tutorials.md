@@ -8,6 +8,10 @@
 ## Tutorials Todo
 - https://medium.com/codingthesmartway-com-blog/vue-js-2-quickstart-tutorial-2017-246195cfbdd2
 - https://vuejs.org/v2/guide/
+- https://vuejs.org/v2/style-guide/
+- https://vuejs.org/v2/api/
+- https://vuejs.org/v2/examples/
+- https://vuejs.org/v2/cookbook/
 
 ## Tutorials in Progress
 - https://www.tutorialspoint.com/vuejs/
