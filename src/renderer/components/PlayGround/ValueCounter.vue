@@ -13,7 +13,7 @@
     </div>
     <button v-on:click="factor++">Increase factor!</button>
     <div>
-      {{count * factor}}
+      {{getCalculatedValue()}}
     </div>
   </div>
 </template>
@@ -21,11 +21,16 @@
 <script>
 export default {
   name: 'ValueCounter',
-  data: function(){
-    return{
+  data: function() {
+    return {
       someString: "foobar",
       count: 0,
       factor: 1
+    }
+  },
+  methods: {
+    getCalculatedValue: function() {
+      return this.count * this.factor;
     }
   }
 }
