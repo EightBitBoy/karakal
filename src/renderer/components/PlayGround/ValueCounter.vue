@@ -7,6 +7,7 @@
     <div>
       {{count}}
     </div>
+    <input v-model="count">
     <button v-on:click="count++">Do count!</button>
     <div>
       {{factor}}
