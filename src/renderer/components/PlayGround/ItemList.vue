@@ -4,6 +4,8 @@
     <ul>
       <li v-for="item in items" v-bind:key="item">{{item}}</li>
     </ul>
+    <input v-model="newItem" type="text">
+    <button v-on:click="addItem">Add item!</button>
   </div>
 </template>
 
@@ -12,7 +14,14 @@ export default {
   name: 'ItemList',
   data: function(){
     return {
-      items: ['Apple', 'Banana', 'Cucumber', 'Dragonfruit']
+      items: ['Apple', 'Banana', 'Cucumber', 'Dragonfruit'],
+      newItem: ''
+    }
+  },
+  methods:{
+    addItem(){
+      this.items.push(this.newItem);
+      this.newItem = '';
     }
   }
 }
