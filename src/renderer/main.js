@@ -13,7 +13,8 @@ import store from './store'
 Vue.config.productionTip = false
 Vue.config.devtools = true
 
-Vue.use(require('vue-electron'))
+//TODO Use this?
+//Vue.use(require('vue-electron'))
 
 /* eslint-disable no-new */
 new Vue({

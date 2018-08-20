@@ -1,21 +1,22 @@
 <template>
   <div id="container">
     <div>
+      <router-link to="/hello-world-example">Hello World Example</router-link>
       <hello-world-example/>
-      <events-example/>
       <list-example/>
+      <events-example/>
     </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./PlayGround/HelloWorldExample";
-import ValueCounter from "./PlayGround/EventsExample";
-import ItemList from "./PlayGround/ListExample";
+import HelloWorldExample from "./PlayGround/HelloWorldExample";
+import ListExample from "./PlayGround/ListExample";
+import EventsExample from "./PlayGround/EventsExample";
 
 export default {
   name: "PlayGround",
-  components: { HelloWorldExample, EventsExample, ListExample }
+  components: { HelloWorldExample, ListExample, EventsExample }
 };
 </script>
 
