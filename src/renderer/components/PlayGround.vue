@@ -1,7 +1,7 @@
 <template>
   <div id="container">
     <div>
-      <router-link to="/hello-world-example">Hello World Example</router-link>
+      <router-link to="/playground/hello-world-example">Hello World Example</router-link>
       <hello-world-example/>
       <list-example/>
       <events-example/>

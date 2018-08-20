@@ -14,6 +14,10 @@ export default new Router({
       component: require('@/components/Home').default
     },
     {
+      path: '/playground/hello-world-example',
+      component: require('@/components/PlayGround/HelloWorldExample').default
+    },
+    {
       path: '*',
       redirect: '/'
     }
