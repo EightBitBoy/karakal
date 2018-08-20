@@ -21,22 +21,21 @@
 
 <script>
 export default {
-  name: 'ValueCounter',
+  name: "EventsExample",
   data: function() {
     return {
       someString: "foobar",
       count: 0,
       factor: 1
-    }
+    };
   },
   methods: {
     getCalculatedValue: function() {
       return this.count * this.factor;
     }
   }
-}
+};
 </script>
 
 <style>
-
 </style>

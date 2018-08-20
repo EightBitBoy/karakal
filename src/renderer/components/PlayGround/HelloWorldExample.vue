@@ -6,10 +6,9 @@
 
 <script>
 export default {
-  name: 'HelloWorld'
-}
+  name: "HelloWorldExample"
+};
 </script>
 
 <style>
-
 </style>
