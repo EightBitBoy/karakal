@@ -1,26 +1,26 @@
 <template>
   <div>
     <div>
-      <transaction-list/>
+      <play-ground/>
     </div>
     <div>
-      <play-ground/>
+      <transaction-list/>
     </div>
   </div>
 </template>
 
 <script>
-import PlayGround from './PlayGround'
-import TransactionList from './TransactionList'
+import PlayGround from "./PlayGround";
+import TransactionList from "./TransactionList";
 
 export default {
-  name: 'MainComponent',
-  components: {PlayGround, TransactionList}
-}
+  name: "MainComponent",
+  components: { PlayGround, TransactionList }
+};
 </script>
 
 <style>
-body{
+body {
   background-color: rgb(220, 220, 220);
 }
 </style>

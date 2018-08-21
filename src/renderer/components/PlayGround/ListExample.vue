@@ -6,27 +6,28 @@
     </ul>
     <input v-model="newItem" type="text">
     <button v-on:click="addItem">Add item!</button>
+    <br>
+    <router-link to="/">Back</router-link>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'ItemList',
-  data: function(){
+  name: "ItemList",
+  data: function() {
     return {
-      items: ['Apple', 'Banana', 'Cucumber', 'Dragonfruit'],
-      newItem: ''
-    }
+      items: ["Apple", "Banana", "Cucumber", "Dragonfruit"],
+      newItem: ""
+    };
   },
-  methods:{
-    addItem(){
+  methods: {
+    addItem() {
       this.items.push(this.newItem);
-      this.newItem = '';
+      this.newItem = "";
     }
   }
-}
+};
 </script>
 
 <style>
-
 </style>

@@ -1,10 +1,9 @@
 <template>
   <div id="container">
     <div>
-      <router-link to="/playground/hello-world-example">Hello World Example</router-link>
-      <hello-world-example/>
-      <list-example/>
-      <events-example/>
+      <router-link to="/playground/hello-world-example">Hello World Example</router-link><br>
+      <router-link to="/playground/list-example">List Example</router-link><br>
+      <router-link to="/playground/events-example">Events Example</router-link><br>
     </div>
   </div>
 </template>
