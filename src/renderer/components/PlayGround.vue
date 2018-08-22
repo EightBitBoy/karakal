@@ -1,6 +1,7 @@
 <template>
   <div id="container">
     <div>
+      <router-link to="/playground/hacking-area">Hacking Area</router-link><br>
       <router-link to="/playground/hello-world-example">Hello World Example</router-link><br>
       <router-link to="/playground/list-example">List Example</router-link><br>
       <router-link to="/playground/events-example">Events Example</router-link><br>
