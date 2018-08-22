@@ -10,13 +10,8 @@
 </template>
 
 <script>
-import HelloWorldExample from "./PlayGround/HelloWorldExample";
-import ListExample from "./PlayGround/ListExample";
-import EventsExample from "./PlayGround/EventsExample";
-
 export default {
-  name: "PlayGround",
-  components: { HelloWorldExample, ListExample, EventsExample }
+  name: "PlayGround"
 };
 </script>
 

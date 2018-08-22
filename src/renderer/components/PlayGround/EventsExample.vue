@@ -1,9 +1,6 @@
 <template>
   <div>
-    <h1>ValueCounter</h1>
-    <div>
-      {{someString}}
-    </div>
+    <h1>Value Counter</h1>
     <div>
       {{count}}
     </div>
@@ -25,7 +22,6 @@ export default {
   name: "EventsExample",
   data: function() {
     return {
-      someString: "foobar",
       count: 0,
       factor: 1
     };
