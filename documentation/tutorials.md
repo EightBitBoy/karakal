@@ -6,6 +6,7 @@
 - https://laracasts.com/series/testing-vue
 
 ## Tutorials Todo
+- http://getbem.com/introduction/
 - https://medium.com/codingthesmartway-com-blog/vue-js-2-quickstart-tutorial-2017-246195cfbdd2
 - https://vuejs.org/v2/guide/
 - https://vuejs.org/v2/style-guide/
