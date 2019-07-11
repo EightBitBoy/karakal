@@ -1,1 +1,3 @@
-# karakal
+# Quasar App
+
+> WIP
