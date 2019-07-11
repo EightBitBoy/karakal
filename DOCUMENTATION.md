@@ -8,6 +8,7 @@
 ## Project Setup
 - npm install -g @quasar/cli
 - quasar create karakal
+- quasar mode add electron
 - quasar dev
 
 ## Commands
